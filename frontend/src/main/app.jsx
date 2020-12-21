@@ -2,14 +2,12 @@ import 'modules/bootstrap/dist/css/bootstrap.min.css'
 import 'modules/font-awesome/css/font-awesome.min.css'
 
 import React from 'react'
-import Desafio from '../desafio/desafio'
-import About from '../about/about'
+import Routes from '../template/menu'
 import Menu from '../template/menu' 
 
 export default props => (
     <div className='container'>
         <Menu />
-        <Desafio /> 
-        <About />
+        <Routes />
     </div>
 ) 
